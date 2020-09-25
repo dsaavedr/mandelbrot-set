@@ -58,7 +58,7 @@ html, body {
     transition: all 0.5s ease;
 }
 
-.openbtn:hover {
+.openbtn:hover, .openbtn.active {
     background: white;
     color: black;
     border: 1px solid transparent;
