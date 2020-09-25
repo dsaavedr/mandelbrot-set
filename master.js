@@ -151,6 +151,8 @@ function getMandelbrot() {
 }
 
 function handleUp() {
+    document.getElementById("resetBtn").classList.add("active");
+
     let rs = userSelection.s.x,
         re = userSelection.e.x,
         is = userSelection.s.y,
@@ -193,6 +195,8 @@ function handleUp() {
 }
 
 function resetCanvas() {
+    document.getElementById("resetBtn").classList.remove("active");
+
     RE_START = -2;
     RE_END = 1;
     IM_START = -1.2;
