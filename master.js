@@ -8,7 +8,8 @@ let size = 600,
     img,
     WIDTH, HEIGHT;
 
-const MAX_ITER = 80;
+const MAX_ITER = 120;
+// const MAX_ITER = 80;
 
 let RE_START = -2,
     RE_END = 1,
