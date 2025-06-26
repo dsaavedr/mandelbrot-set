@@ -10,13 +10,13 @@ let size = 600,
 
 const MAX_ITERATIONS = 120;
 const INITIAL_REAL = [-2, 1];
-const INTIAL_IMAGINARY = [-1.5, 1.5];
+const INITIAL_IMAGINARY = [-1.5, 1.5];
 const INITIAL_RATIO = 4 / 3;
 // const MAX_ITER = 80;
 
 let ratio = INITIAL_RATIO;
 let [realStart, realEnd] = INITIAL_REAL;
-let [imaginaryStart, imaginaryEnd] = INTIAL_IMAGINARY;
+let [imaginaryStart, imaginaryEnd] = INITIAL_IMAGINARY;
 
 function mandelbrot(c) {
   let z = { x: 0, y: 0 },
@@ -213,7 +213,7 @@ function resetCanvas() {
   document.getElementById("resetBtn").classList.remove("active");
 
   [realStart, realEnd] = INITIAL_REAL;
-  [imaginaryStart, imaginaryEnd] = INTIAL_IMAGINARY;
+  [imaginaryStart, imaginaryEnd] = INITIAL_IMAGINARY;
 
   ratio = INITIAL_RATIO;
 
